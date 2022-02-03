@@ -50,6 +50,16 @@ pipeline
             }
             
         }
+        stage("deploy")
+        {
+            
+            steps
+            {
+                echo "mydeployment"
+                //sh "mvn package"
+            }
+            
+        }
     }
     
     
