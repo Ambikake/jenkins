@@ -9,17 +9,17 @@ pipeline
     stages
     {
         
-        stage("clone gitrepo")
-        {
+        //stage("clone gitrepo")
+       // {
             
-            steps
-            {
+           // steps
+           // {
                 
-               git 'https://github.com/Ambikake/jenkins.git'
+              // git 'https://github.com/Ambikake/jenkins.git'
                 
-            }
+           // }
             
-        }
+        //}
         stage("compile")
         {
             
