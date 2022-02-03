@@ -15,7 +15,7 @@ pipeline
             steps
             {
                 
-               git 'https://github.com/ashisnishanka/realtimecodeNEW.git'
+               git 'https://github.com/Ambikake/jenkins.git'
                 
             }
             
